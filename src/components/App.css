@@ -56,6 +56,15 @@
   margin-left: 4.5%;
 }
 
+.title3 {
+  font-size: 2em;
+  font-weight: 800;
+  display: flex;
+  text-decoration: none !important;
+  margin-right: 4%;
+  margin-left: 4.5%;
+}
+
 .intro2 {
   margin-left: 4.5%;
 }
@@ -173,9 +182,16 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
   .hello {
     display: none;
+  }
+  .title3 {
+    margin: 0;
+  }
+  .intro2 {
+    margin: 0;
   }
 }
 
@@ -195,7 +211,7 @@ body {
   margin-left: 4.5%;
 }
 
-.transform {
+s.transform {
   text-transform: uppercase;
   color: #008cba;
 }
@@ -243,6 +259,25 @@ body {
   color: #2962ff;
   font-size: 1.4em;
   font-weight: 500;
+}
+
+.btn {
+  color: #fff;
+  background-color: #2962ff;
+}
+
+.btn:visited {
+  color: #fff;
+  background-color: #2962ff;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #2962ff;
+}
+.btn:active {
+  color: #fff;
+  background-color: #2962ff;
 }
 
 .blackWriting {

@@ -28,7 +28,7 @@ const Navigation = () => {
           aria-haspopup="true"
           onClick={handleClick}
         >
-          <MenuItem className="MenuIcon" /> Menu
+          Menu
         </Button>
         <Menu
           id="simple-menu"
@@ -37,9 +37,33 @@ const Navigation = () => {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}>Profile</MenuItem>
-          <MenuItem onClick={handleClose}>My account</MenuItem>
-          <MenuItem onClick={handleClose}>Logout</MenuItem>
+          <MenuItem onClick={handleClose}>
+            {" "}
+            <Link className="navLinks" to="/">
+              <FaceIcon className="icons" /> ABOUT
+            </Link>
+          </MenuItem>
+
+          <MenuItem onClick={handleClose}>
+            {" "}
+            <Link className="navLinks" to="/Projects">
+              <CodeOutlinedIcon className="icons" />
+              PROJECTS
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            {" "}
+            <Link className="navLinks" to="/Contact">
+              <ContactMailIcon className="icons" />
+              CONTACT
+            </Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            {" "}
+            <Link className="navLinks" to="/blog">
+              <BorderColorOutlinedIcon className="icons" /> BLOG
+            </Link>
+          </MenuItem>
         </Menu>
       </div>
       <div>
@@ -71,7 +95,12 @@ const Navigation = () => {
 
           <ul className="nav nav-pills pull-right">
             <li className="navButton">
-              <Link className="navLinks" to="/">
+              <a
+                className="linky"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/danroche10"
+              >
                 <img
                   className="greyImage"
                   src="/GitHub-Mark-64px.png"
@@ -79,10 +108,15 @@ const Navigation = () => {
                   width="20"
                   height="20"
                 />
-              </Link>
+              </a>
             </li>
             <li className="navButton">
-              <Link className="navLinks" to="/Projects">
+              <a
+                className="linky"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/DanRoche01"
+              >
                 <img
                   className="greyImage"
                   src="/twitter.png"
@@ -90,10 +124,15 @@ const Navigation = () => {
                   width="20"
                   height="20"
                 />
-              </Link>
+              </a>
             </li>
             <li className="navButton">
-              <Link className="navLinks" to="/Contact">
+              <a
+                className="linky"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/dan-roche-3765214a/"
+              >
                 <img
                   className="greyImage"
                   src="/linkedin.png"
@@ -101,7 +140,7 @@ const Navigation = () => {
                   width="20"
                   height="20"
                 />
-              </Link>
+              </a>
             </li>
           </ul>
         </Row>

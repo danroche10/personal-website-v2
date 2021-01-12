@@ -30,7 +30,7 @@ const Blog = () => {
         <ul>
           <li>
             <Link className="blogPost" to="/establishment">
-              <div>Technology is Changing The Establishment</div>
+              Technology is Changing The Establishment
             </Link>
           </li>
           <br></br>

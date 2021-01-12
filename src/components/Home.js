@@ -15,7 +15,7 @@ const Home = () => {
         />
 
         <div className="intro">
-          <div className="title2">Dan Roche</div>
+          <div className="title3">Dan Roche</div>
           <div className="intro2">
             I am a full stack software developer based in London. I previously
             studied Economics at Bath University and have four years of
