@@ -263,20 +263,37 @@ s.transform {
 .btn {
   color: #fff;
   background-color: #2962ff;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .btn:visited {
   color: #fff;
   background-color: #2962ff;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .btn:hover {
   color: #fff;
   background-color: #2962ff;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .btn:active {
   color: #fff;
   background-color: #2962ff;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .blackWriting {
@@ -300,8 +317,8 @@ s.transform {
 }
 
 .menuIcon {
-  margin-top: 20%;
-  margin-bottom: 20%;
+  margin-top: 25%;
+  margin-bottom: 15%;
   width: 1.6em !important;
   height: 60% !important;
 }
