@@ -7,6 +7,7 @@ import CodeOutlinedIcon from "@material-ui/icons/CodeOutlined";
 import FaceIcon from "@material-ui/icons/Face";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
+import MenuIcon from "@material-ui/icons/Menu";
 
 const Navigation = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -28,7 +29,7 @@ const Navigation = () => {
           aria-haspopup="true"
           onClick={handleClick}
         >
-          Menu
+          <MenuIcon className="menuIcon" />
         </Button>
         <Menu
           id="simple-menu"
