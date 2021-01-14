@@ -91,7 +91,7 @@ const Projects = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://goodreads-api-search.herokuapp.com/"
+            href="https://goodreads-search-api.netlify.app/"
           >
             <img
               className="projectImage"
@@ -107,7 +107,7 @@ const Projects = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/danroche10/goodreads-api-search"
+              href="https://github.com/danroche10/goodreads_api_search_v2"
             >
               <img src="/GitHub-Mark-64px.png" alt="" width="50" height="50" />
             </a>
