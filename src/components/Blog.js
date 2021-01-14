@@ -15,8 +15,9 @@ const Blog = () => {
       </div>
       <div className="Text1">
         I thought I’d start a blog to practice my writing and explore some
-        topics that interest me. If anyone finds it useful then that’s a bonus.
-        You can also find my blog on<span> </span>
+        topics that interest me. You can see some of my articles below. If
+        anyone finds it useful then that’s a bonus. You can also find my blog on
+        <span> </span>
         <a
           target="_blank"
           rel="noopener noreferrer"
