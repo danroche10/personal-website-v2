@@ -112,6 +112,7 @@
 .navLinks {
   color: black;
   cursor: pointer;
+  justify-content: center;
 }
 
 .navLinks:visited {
@@ -150,7 +151,7 @@ body {
   padding-bottom: 2%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .footer {
     padding-left: 0;
     padding-right: 0;
@@ -169,7 +170,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 699px) {
   .projectImage {
     width: 90%;
     height: 60%;
@@ -321,4 +322,13 @@ s.transform {
   margin-bottom: 15%;
   width: 1.6em !important;
   height: 60% !important;
+}
+
+.MuiButtonBase-root
+  MuiListItem-root
+  MuiMenuItem-root
+  MuiMenuItem-gutters
+  MuiListItem-gutters
+  MuiListItem-button {
+  justify-content: center;
 }
