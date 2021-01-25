@@ -10,7 +10,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import MenuIcon from "@material-ui/icons/Menu";
 
 const Navigation = () => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -40,29 +40,32 @@ const Navigation = () => {
         >
           <MenuItem onClick={handleClose}>
             {" "}
+            <FaceIcon className="icons" />{" "}
             <Link className="navLinks" to="/">
-              <FaceIcon className="icons" /> ABOUT
+              ABOUT
             </Link>
           </MenuItem>
 
           <MenuItem onClick={handleClose}>
             {" "}
+            <CodeOutlinedIcon className="icons" />
             <Link className="navLinks" to="/Projects">
-              <CodeOutlinedIcon className="icons" />
               PROJECTS
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
             {" "}
+            <ContactMailIcon className="icons" />
             <Link className="navLinks" to="/Contact">
-              <ContactMailIcon className="icons" />
               CONTACT
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
             {" "}
+            <BorderColorOutlinedIcon className="icons" />
             <Link className="navLinks" to="/blog">
-              <BorderColorOutlinedIcon className="icons" /> BLOG
+              {" "}
+              BLOG
             </Link>
           </MenuItem>
         </Menu>
