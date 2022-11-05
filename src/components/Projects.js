@@ -5,191 +5,181 @@ const Projects = () => {
   document.title = "Projects";
   return (
     <div>
-      <div className="pageTitle">
+      <div className='pageTitle'>
         {" "}
-        <CodeOutlinedIcon className="icons" />
+        <CodeOutlinedIcon className='icons' />
         <span> </span>
         Projects
       </div>
 
-      <div className="Text2">
-        You can see three of my projects below - click on the project image to
-        view the website and click on the github logo to view the code. My plan
-        is to turn Leyendo into a real side project so stay tuned!
+      <div className='Text2'>
+        You can see three projects below - click on the github logo to view the
+        repo.
         <br></br>
         <br></br>
-        <div className="footer"></div>
-        <div className="projectTitle">Leyendo V2</div>
+        <div className='footer'></div>
+        <div className='projectTitle'>Data Migration Xrm Toolbox</div>
         <br></br>
-        <div className="container">
+        <div className='container'>
           <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://cocky-easley-edf596.netlify.app/"
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/Capgemini/xrm-datamigration-xrmtoolbox'
           >
             <img
-              className="projectImage"
-              src="/Leyendo_v2.png"
-              alt=""
-              width="497"
-              height="394"
+              className='projectImage'
+              src='/cds-migrator-image.png'
+              alt=''
+              width='497'
+              height='394'
             />
           </a>
           <br></br>
           <br></br>
           <br></br>
           <br></br>
-          <div className="projectDescription">
+          <div className='projectDescription'>
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/danroche10/Leyendo_v2_client"
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://github.com/Capgemini/xrm-datamigration-xrmtoolbox'
             >
-              <img src="/GitHub-Mark-64px.png" alt="" width="50" height="50" />
-            </a>
-            <span></span> Client <span> </span>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/danroche10/Leyendo_v2_server"
-            >
-              <img src="/GitHub-Mark-64px.png" alt="" width="50" height="50" />
-            </a>
-            <span></span> Server
-            <br></br>
-            <br></br>
-            <div className="blackWriting">
-              <b>Overview</b>
-            </div>
-            <br></br>
-            <ul>
-              <li>
-                This is <b>version 2</b> of my side project, Leyendo. Leyendo
-                aims to provide readers with access to the best writing across
-                the internet. Authenticated users are able to like and comment
-                on pieces that they enjoy.
-              </li>
-              <li>
-                In version 3 I plan to implement user reading lists, increase
-                the number of authors/essays, join datbases with GraphQL and
-                improve UX.
-              </li>
-            </ul>
-            <b>Client: </b>React
-            <br></br>
-            <br></br>
-            <b>Server: </b>MongoDB, Node.js, GraphQL, Apollo
-            <br></br>
-            <br></br>
-          </div>
-        </div>
-        <div className="footer"></div>
-        <div className="projectTitle">Goodreads-api-search</div>
-        <br></br>
-        <div className="container">
-          <br></br>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://goodreads-search-api.netlify.app/"
-          >
-            <img
-              className="projectImage"
-              src="/goodreads.png"
-              alt=""
-              width="497"
-              height="394"
-            />
-          </a>
-          <br></br>
-          <br></br>
-          <div className="projectDescription">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/danroche10/goodreads_api_search_v2"
-            >
-              <img src="/GitHub-Mark-64px.png" alt="" width="50" height="50" />
-            </a>
-            <br></br>
-            <br></br>
-            <div className="blackWriting">
-              <b>Overview</b>
-            </div>
-            <br></br>
-            <ul>
-              <li>
-                This project consisted of building a front end search
-                functionality using the{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.goodreads.com/api"
-                >
-                  Goodreads API
-                </a>
-              </li>
-              <li>
-                I accessed two different APIs. The first query used the author
-                name searched by the user. The second query used authorID which
-                was found in the first API.
-              </li>
-            </ul>
-            <b>Client: </b>React
-            <br></br>
-            <br></br>
-          </div>
-        </div>
-        <div className="footer"></div>
-        <div className="projectTitle">Leyendo</div>
-        <br></br>
-        <div className="container">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://leyendo.herokuapp.com/"
-          >
-            <img
-              className="projectImage"
-              src="/Leyendo.png"
-              alt=""
-              width="497"
-              height="394"
-            />
-          </a>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <div className="projectDescription">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/danroche10/leyendo"
-            >
-              <img src="/GitHub-Mark-64px.png" alt="" width="50" height="50" />
+              <img src='/GitHub-Mark-64px.png' alt='' width='50' height='50' />
             </a>
             <span></span>
             <br></br>
             <br></br>
-            <div className="blackWriting">
+            <div className='blackWriting'>
               <b>Overview</b>
             </div>
             <br></br>
             <ul>
               <li>
-                The first version of Leyendo enabled me to build a full stack
-                web application for the first time. I built the database from
-                scratch and utilised CRUD. I also became familiar with React
-                functional components and state management using Hooks. Rather
-                than use Redux I used the useContext hook which seems more
-                intuitive.
+                Rewrote most of the C# codebase for the Data Migration Xrm
+                Toolbox open source project which has 48.6K downloads. This gave
+                me an in-depth understanding of the C# language and .NET
+                framework. It also provided me with experience of tackling
+                difficult programming challenges independently.
               </li>
             </ul>
-            <b>Client: </b>React
             <br></br>
             <br></br>
-            <b>Server: </b>MongoDB, Node.js, Express
+          </div>
+        </div>
+        <div className='footer'></div>
+        <div className='projectTitle'>Chess game</div>
+        <br></br>
+        <div className='container'>
+          <br></br>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/danroche10/chess-match'
+          >
+            <video width='497' height='394' controls>
+              <source src='chess-video.mp4' type='video/mp4' />
+            </video>
+          </a>
+          <br></br>
+          <br></br>
+          <div className='projectDescription'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://github.com/danroche10/chess-match'
+            >
+              <img src='/GitHub-Mark-64px.png' alt='' width='50' height='50' />
+            </a>
+            <br></br>
+            <br></br>
+            <div className='blackWriting'>
+              <b>Overview</b>
+            </div>
+            <br></br>
+            <ul>
+              <li>
+                As an avid chess fan, I wanted to build a python program that
+                enabled a game of chess to be played with all the rules in
+                place.
+              </li>
+              <li>
+                I found a pygame tutorial for a game of checkers which enabled
+                me to get the initial idea up and running. From there I used my
+                programming knowledge and logical reasoning to build the game up
+                from just pawns to all pieces. Finally, I addressed all of the
+                edge cases (castling, checkmate, pawn promotion), refactored and
+                made the code more readable.
+              </li>
+              <li>
+                I included tests to make the program more robu. Some possible
+                enhancements include cloud deployment to enable matches between
+                players on different machines, a backend that enables matches to
+                be stored and a chat on the side of the board to make the games
+                more entertaining.
+              </li>
+            </ul>
+            <br></br>
+            <br></br>
+          </div>
+        </div>
+        <div className='footer'></div>
+        <div className='projectTitle'>Tennis court booker</div>
+        <br></br>
+        <div className='container'>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/danroche10/court_booker'
+          >
+            <img
+              className='projectImage'
+              src='/booking-bot.png'
+              alt=''
+              width='497'
+              height='394'
+            />
+          </a>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className='projectDescription'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://github.com/danroche10/court_booker'
+            >
+              <img src='/GitHub-Mark-64px.png' alt='' width='50' height='50' />
+            </a>
+            <span></span>
+            <br></br>
+            <br></br>
+            <div className='blackWriting'>
+              <b>Overview</b>
+            </div>
+            <br></br>
+            <ul>
+              <li>
+                Having grown frustrated with not being able to book a tennis
+                court in my local area, I decided to build a python bot (using
+                selenium) that would automate the booking process, ensuring that
+                I got a court each week at my preferred time
+              </li>
+              <li>
+                Initially, the bot hit the website at the same time each week
+                when the courts were released for booking. However, at this time
+                there was no availability and I realised that there was a one
+                week period before public release where paid members were able
+                to book courts. Not wanting to get a paid membership, I changed
+                the script to hit the website every 5 mins (using datetime
+                library) from the public release time so that as soon as someone
+                canceled their court, my bot would book it.
+              </li>
+              <li>
+                Since going live, the bot has booked a court every week at my
+                preferred time and tennis skills have vastly improved.
+              </li>
+            </ul>
             <br></br>
             <br></br>
           </div>

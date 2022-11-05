@@ -6,6 +6,7 @@ import Home from "./Home";
 import Meaning from "./Meaning";
 import Mayweather from "./Mayweather";
 import Establishment from "./Establishment";
+import LearnProgramming from "./LearnProgramming";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import "./App.css";
@@ -15,12 +16,12 @@ const App = () => {
 
   return (
     <div>
-      <div className="title2">
+      <div className='title2'>
         <a
-          className="linky2"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="/"
+          className='linky2'
+          target='_blank'
+          rel='noopener noreferrer'
+          href='/'
         >
           Dan Roche
         </a>
@@ -29,16 +30,17 @@ const App = () => {
       <Router>
         <Navigation />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/meaning" component={Meaning} />
-          <Route path="/mayweather" component={Mayweather} />
-          <Route path="/establishment" component={Establishment} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
+          <Route path='/' exact component={Home} />
+          <Route path='/blog' component={Blog} />
+          <Route path='/meaning' component={Meaning} />
+          <Route path='/mayweather' component={Mayweather} />
+          <Route path='/establishment' component={Establishment} />
+          <Route path='/learnprogramming' component={LearnProgramming} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/contact' component={Contact} />
         </Switch>
 
-        <div className="footer"></div>
+        <div className='footer'></div>
       </Router>
     </div>
   );
