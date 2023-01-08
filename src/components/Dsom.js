@@ -23,6 +23,8 @@ const Dsom = () => {
       <i>Dark Side of the Moon</i>. Apart from some repitition I think it's very
       impressive. I will certainly use it for other albums to gain some context
       before listening. Enjoy!
+      <br></br>
+      <br></br>
       <b>Speak to Me</b>
       <br></br>
       <br></br>
