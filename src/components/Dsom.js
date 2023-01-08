@@ -5,20 +5,24 @@ const Dsom = () => {
   return (
     <div class='Text1'>
       <h2>
-        I used{" "}
-        <a
-          className='linky'
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://chat.openai.com/chat'
-        >
-          ChatGPT{" "}
-        </a>
-        to provide explanations for the lyrics of the songs in{" "}
-        <i>Dark Side of the Moon</i> by Pink Floyd. Apart from some repitition I
-        think it's very impressive. I will certainly use it for other albums to
-        gain some context before listening. Enjoy!
+        ChatGPT's take on Pink Floyd's <i>Dark Side of the Moon</i>
       </h2>
+      <br></br>
+      <i>January 2023</i>
+      <br></br>
+      <br></br>I used{" "}
+      <a
+        className='linky'
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://chat.openai.com/chat'
+      >
+        ChatGPT{" "}
+      </a>
+      to provide explanations for the song lyrics in Pink Floyd's{" "}
+      <i>Dark Side of the Moon</i>. Apart from some repitition I think it's very
+      impressive. I will certainly use it for other albums to gain some context
+      before listening. Enjoy!
       <b>Speak to Me</b>
       <br></br>
       <br></br>
@@ -165,6 +169,7 @@ const Dsom = () => {
       album and to support the overall concept of the album, which explores the
       darker aspects of the human experience.
       <br></br>
+      <br></br>
       <b>Brain Damage</b>
       <br></br>
       <br></br>
@@ -183,6 +188,7 @@ const Dsom = () => {
       illness can distort an individual's thoughts and perceptions. The song
       also touches on the theme of isolation and the way that mental illness can
       make it difficult for someone to connect with others.
+      <br></br>
       <br></br>
       <b>Eclipse</b>
       <br></br>

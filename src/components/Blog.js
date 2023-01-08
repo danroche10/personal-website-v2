@@ -23,10 +23,11 @@ const Blog = () => {
           <br></br>
           <li>
             <Link className='blogPost' to='/dsom'>
-              ChatGPT provides meaning of <i>Dark Side of the Moon</i> by Pink
-              Floyd
+              ChatGPT's take on Pink Floyd's <i>Dark Side of the Moon</i>
             </Link>
           </li>
+          <br></br>
+          <br></br>
           2022
           <br></br>
           <br></br>
