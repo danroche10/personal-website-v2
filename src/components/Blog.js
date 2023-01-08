@@ -27,7 +27,6 @@ const Blog = () => {
             </Link>
           </li>
           <br></br>
-          <br></br>
           2022
           <br></br>
           <br></br>
