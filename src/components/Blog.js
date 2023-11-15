@@ -18,6 +18,15 @@ const Blog = () => {
         <br></br>
         <br></br>
         <ul>
+          2023
+          <br></br>
+          <br></br>
+          <li>
+            <Link className='blogPost' to='/dsom'>
+              ChatGPT's take on Pink Floyd's <i>Dark Side of the Moon</i>
+            </Link>
+          </li>
+          <br></br>
           2022
           <br></br>
           <br></br>
