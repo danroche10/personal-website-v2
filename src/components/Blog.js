@@ -22,6 +22,12 @@ const Blog = () => {
           <br></br>
           <br></br>
           <li>
+            <Link className='blogPost' to='/dotnet'>
+              Notes for passing a .NET interview
+            </Link>
+          </li>
+          <br></br>
+          <li>
             <Link className='blogPost' to='/dsom'>
               ChatGPT's take on Pink Floyd's <i>Dark Side of the Moon</i>
             </Link>
