@@ -123,6 +123,106 @@ const Projects = () => {
           </div>
         </div>
         <div className='footer'></div>
+        <div className='projectTitle'>
+          Trading bot using Coinbase Advanced Trade
+        </div>
+        <br></br>
+        <div className='container'>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/danroche10/execution'
+          >
+            <img
+              className='projectImage'
+              src='/coinbase-trading-bot.jpeg'
+              alt=''
+              width='497'
+              height='394'
+            />
+          </a>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className='projectDescription'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://github.com/danroche10/execution'
+            >
+              <img src='/GitHub-Mark-64px.png' alt='' width='50' height='50' />
+            </a>
+            <span></span>
+            <br></br>
+            <br></br>
+            <div className='blackWriting'>
+              <b>Overview</b>
+            </div>
+            <br></br>
+            <ul>
+              <li>
+                Rewrote most of the C# codebase for the Data Migration Xrm
+                Toolbox open source project which has 48.6K downloads. This gave
+                me an in-depth understanding of the C# language and .NET
+                framework. It also provided me with experience of tackling
+                difficult programming challenges independently.
+              </li>
+            </ul>
+            <br></br>
+            <br></br>
+          </div>
+        </div>
+        <div className='footer'></div>
+        <div className='projectTitle'>Crypto Trading Backtester</div>
+        <br></br>
+        <div className='container'>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/danroche10/trade-back-testing'
+          >
+            <img
+              className='projectImage'
+              src='/crypto-backtester.jpeg'
+              alt=''
+              width='497'
+              height='394'
+            />
+          </a>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className='projectDescription'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://github.com/danroche10/trade-back-testing'
+            >
+              <img src='/GitHub-Mark-64px.png' alt='' width='50' height='50' />
+            </a>
+            <span></span>
+            <br></br>
+            <br></br>
+            <div className='blackWriting'>
+              <b>Overview</b>
+            </div>
+            <br></br>
+            <ul>
+              <li>
+                Rewrote most of the C# codebase for the Data Migration Xrm
+                Toolbox open source project which has 48.6K downloads. This gave
+                me an in-depth understanding of the C# language and .NET
+                framework. It also provided me with experience of tackling
+                difficult programming challenges independently.
+              </li>
+            </ul>
+            <br></br>
+            <br></br>
+          </div>
+        </div>
+        <div className='footer'></div>
         <div className='projectTitle'>Tennis court booker</div>
         <br></br>
         <div className='container'>
