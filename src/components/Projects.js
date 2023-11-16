@@ -123,9 +123,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='footer'></div>
-        <div className='projectTitle'>
-          Trading bot using Coinbase Advanced Trade
-        </div>
+        <div className='projectTitle'>Trading Bot</div>
         <br></br>
         <div className='container'>
           <a
