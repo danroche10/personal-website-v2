@@ -129,7 +129,7 @@ const Projects = () => {
           <a
             target='_blank'
             rel='noopener noreferrer'
-            href='https://github.com/danroche10/execution'
+            href='https://github.com/danroche10/coinbase-advanced-trade-bot'
           >
             <img
               className='projectImage'
@@ -147,7 +147,7 @@ const Projects = () => {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://github.com/danroche10/execution'
+              href='https://github.com/danroche10/coinbase-advanced-trade-bot'
             >
               <img src='/GitHub-Mark-64px.png' alt='' width='50' height='50' />
             </a>
@@ -160,11 +160,12 @@ const Projects = () => {
             <br></br>
             <ul>
               <li>
-                Rewrote most of the C# codebase for the Data Migration Xrm
-                Toolbox open source project which has 48.6K downloads. This gave
-                me an in-depth understanding of the C# language and .NET
-                framework. It also provided me with experience of tackling
-                difficult programming challenges independently.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Volutpat est velit egestas dui id ornare arcu odio ut. Accumsan
+                in nisl nisi scelerisque eu ultrices vitae. Tempus imperdiet
+                nulla malesuada pellentesque elit eget gravida. Nec dui nunc
+                mattis enim ut tellus elementum.
               </li>
             </ul>
             <br></br>
@@ -209,11 +210,12 @@ const Projects = () => {
             <br></br>
             <ul>
               <li>
-                Rewrote most of the C# codebase for the Data Migration Xrm
-                Toolbox open source project which has 48.6K downloads. This gave
-                me an in-depth understanding of the C# language and .NET
-                framework. It also provided me with experience of tackling
-                difficult programming challenges independently.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Volutpat est velit egestas dui id ornare arcu odio ut. Accumsan
+                in nisl nisi scelerisque eu ultrices vitae. Tempus imperdiet
+                nulla malesuada pellentesque elit eget gravida. Nec dui nunc
+                mattis enim ut tellus elementum.
               </li>
             </ul>
             <br></br>
