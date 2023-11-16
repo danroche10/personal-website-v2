@@ -7,6 +7,7 @@ import Meaning from "./Meaning";
 import Mayweather from "./Mayweather";
 import Establishment from "./Establishment";
 import LearnProgramming from "./LearnProgramming";
+import DotNet from "./DotNet";
 import Dsom from "./Dsom";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -37,6 +38,7 @@ const App = () => {
           <Route path='/mayweather' component={Mayweather} />
           <Route path='/establishment' component={Establishment} />
           <Route path='/learnprogramming' component={LearnProgramming} />
+          <Route path='/dotnet' component={DotNet} />
           <Route path='/dsom' component={Dsom} />
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
