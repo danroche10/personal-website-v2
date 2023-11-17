@@ -160,12 +160,11 @@ const Projects = () => {
             <br></br>
             <ul>
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Volutpat est velit egestas dui id ornare arcu odio ut. Accumsan
-                in nisl nisi scelerisque eu ultrices vitae. Tempus imperdiet
-                nulla malesuada pellentesque elit eget gravida. Nec dui nunc
-                mattis enim ut tellus elementum.
+                Coinbase Advanced Trade Bot is a .NET-based project that
+                implements an automated trading strategy using the Coinbase
+                Advanced Trade API. It is designed to be deployed as an Azure
+                WebJob, allowing it to run at specified intervals for effective
+                cryptocurrency trading.
               </li>
             </ul>
             <br></br>
@@ -210,12 +209,10 @@ const Projects = () => {
             <br></br>
             <ul>
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Volutpat est velit egestas dui id ornare arcu odio ut. Accumsan
-                in nisl nisi scelerisque eu ultrices vitae. Tempus imperdiet
-                nulla malesuada pellentesque elit eget gravida. Nec dui nunc
-                mattis enim ut tellus elementum.
+                Designed to backtest cryptocurrency trading ideas using data
+                from the CoinGecko API. Written in .NET, it allows users to
+                apply their trading strategies to historical crypto market data
+                to assess their potential effectiveness.
               </li>
             </ul>
             <br></br>
